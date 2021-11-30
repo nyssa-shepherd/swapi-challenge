@@ -1,0 +1,18 @@
+.logo-style  {
+  display: block;
+  height: 100px;
+  margin: 0 auto;
+  width: 300px;
+}
+
+@media screen and (max-width: 1250px) {
+  .logo-style  {
+    margin: 20px 20px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .logo-style {
+    margin: 0 auto;
+  }
+}

@@ -1,0 +1,63 @@
+.species-container {
+  margin: 30px auto;
+  height: 70vh;
+  overflow: scroll;
+  width: 80%;
+}
+
+.loader {
+  animation: spin 2s linear infinite;
+  border: 16px solid #000;
+  border-radius: 50%;
+  border-top: 16px solid #ffe81f;
+  height: 80px;
+  margin: 15% auto;
+  width: 80px;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.error-message {
+  color: #fff;
+  font-size: 32px;
+  margin: 20% 0;
+  text-align: center;
+}
+
+.species-name {
+  color: #fff;
+  font-size: 32px;
+  margin-left: 20px;
+}
+
+.view-all-btn {
+  background-color: transparent;
+  border: 1px solid #ff6b6b;
+  border-radius: 40px;
+  color: white;
+  font-family: 'Russo One', sans-serif;
+  font-size: 22px;
+  height: 60px;
+  margin: 0 45%;
+  width: 150px;
+}
+
+.view-all-btn:hover {
+  background-color: #fbd0cee0;
+  box-shadow: 0px 0px 35px #ff6b6b;
+}
+
+@media screen and (max-width: 1100px) {
+  .species-container {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .species-container {
+    margin-top: 50px;
+  }
+}
